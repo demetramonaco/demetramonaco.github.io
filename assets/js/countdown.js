@@ -19,13 +19,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the results
-  document.getElementById("countdown").innerHTML="SIMHUB partecipa alla Notte dei ricercatori tra<br><b>" + days + "</b> giorni <b>" + hours + "</b> ore e <b>"
+  document.getElementById("countdown").innerHTML="Al mio compleanno mancano<br><b>" + days + "</b> giorni <b>" + hours + "</b> ore e <b>"
   + minutes + "</b> minuti";
 
   //If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Benvenuti alla Notte dei Ricercatori!";
+    document.getElementById("countdown").innerHTML = "Buon compleanno Demetra!";
   }
 }, 1000);
 
